@@ -1,32 +1,36 @@
->[!NOTE]
-> Ejercicios diarios, esto se ira actualizando. 
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
->[!IMPORTANT]
-> Kroa, acordate de siempre actualizar el repositorio. 
+## Getting Started
 
->[!TIP]
-> asegurate de que cada etiqueta este cerrada correctamente "</>".
-> para saber si los codigos estan listos para hacer un commir, debes pone "git status", de esta forma vas a corroborar si los datos estan subidos al log o no. 
-> de no ser asi, aderir codigo "git add + el nombre del archivo o directorio", en el caso que sean muchos documentos "git add . "
+First, run the development server:
 
->[!WARNING]
-> Nunca actualices el repositorio arrastrando los documentos directamente al repositorio, no es seguro. 
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-<h1 align="center">EJERCICIOS DE HTML</h1>
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Creación de una página web básica:
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-Crea una página web simple con un encabezado (`<h1>`), un párrafo (`<p>`), una lista (`<ul>` o `<ol>`) y algunos elementos de lista (`<li>`).
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Enlaces:
+## Learn More
 
-Crea enlaces a otras páginas web usando la etiqueta `<a>`. También puedes practicar enlaces internos dentro de la misma página usando fragmentos de URL.
+To learn more about Next.js, take a look at the following resources:
 
-## Listas:
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-Crea diferentes tipos de listas, como listas ordenadas (`<ol>`), listas desordenadas (`<ul>`) y listas de definición (`<dl>`).
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Comentarios:
+## Deploy on Vercel
 
-Practica el uso de comentarios en HTML (`<!-- comentario -->`) para explicar partes del código o hacer notas para ti mismo.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
